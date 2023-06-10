@@ -1,0 +1,100 @@
+    body,html
+    {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    }
+    .section-top
+    {
+    width: 100%;
+    height: 100%;
+    background-image: url("b1.jpg");
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 10s infinite ease-in-out;
+    }
+    h1{
+        margin-left: 310px;
+        margin-right: 180px;
+        text-align: center;
+        margin-top: 90px;
+        font-size: 60px;
+        font-family: sans-serif;
+        background-color: azure;
+        border-radius: 300px;
+    }
+    #login 
+    {
+    margin-top: 110px;
+    margin-left: 90px;
+    width: 1000px;
+    height: 230px;
+    /* background-color: rgb(255, 225, 0); */
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 25px;
+    }
+    #user
+    {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 80px;
+    float: left;
+    width: 180px;
+    height: 250x;
+    /* border: 2px  solid red; */
+    }
+    #user:hover
+    {
+    background-color: aqua;
+    }
+    #admin
+    {
+    text-align: center;
+    margin-left: 20px;
+    padding-right: 100px;
+    padding-left: 80px;
+    float: right;
+    width: 180px;
+    height: 200px;
+    /* border: 2px solid red; */
+    }
+    #admin:hover{
+    background-color: grey;
+    }
+    .head-on-title
+    {
+    border: 1px solid black;
+    background-color: cadetblue;
+    }
+    @keyframes change
+    {
+    0%
+    {
+        background-image: url("b2.jpg");
+    }
+    20%
+    {
+        background-image: url("b3.jpg");
+    }
+    40%
+    {
+        background-image: url("b4.jpg");
+    }
+    60%
+    {
+        background-image: url("b5.jpg");
+    }
+    80%
+    {
+        background-image: url("b6.jpg");
+    }
+    100%
+    {
+        background-image: url("b7.jpg");
+    }
+    }
